@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 		Intent intent;
 		switch (item.getItemId()) {
 			case R.id.action_logout:
-				currentUser.logOut();
+				ParseUser.logOut();
 				navigateToSignin();
 				break;
 			case R.id.action_edit_profile:

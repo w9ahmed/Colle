@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Colle</string>
-    <string name="title_activity_main">Colle</string>
+    <string name="app_name">Collé</string>
+    <string name="title_activity_main">Collé</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_sign_in">SignIn</string>
     <string name="title_activity_signup">Sign Up</string>

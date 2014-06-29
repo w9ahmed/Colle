@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/relative_layout_hori_vert_paddings" >
+    android:background="@color/dark_orange" >
 
     <TextView
         android:id="@+id/welcomeUserTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white" 
+        android:layout_margin="@dimen/relative_layout_hori_vert_paddings"/>
 
 </RelativeLayout>
