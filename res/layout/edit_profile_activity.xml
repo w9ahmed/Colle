@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/relative_layout_hori_vert_paddings" >
+
+    <EditText
+        android:id="@+id/usernameField"
+        style="@style/editTextBasicStyles"
+        android:hint="@string/username_field_hint" />
+
+    <EditText
+        android:id="@+id/firstNameField"
+        style="@style/editTextBasicStyles"
+        android:layout_below="@id/usernameField"
+        android:layout_toLeftOf="@+id/editTextSeperator"
+        android:hint="@string/first_name_edit_text_label"
+        android:inputType="textPersonName" />
+
+    <View
+        android:id="@+id/editTextSeperator"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/usernameField"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/lastNameField"
+        style="@style/editTextBasicStyles"
+        android:layout_below="@id/usernameField"
+        android:layout_toRightOf="@id/editTextSeperator"
+        android:hint="@string/last_name_edit_text_label"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailField"
+        style="@style/editTextBasicStyles"
+        android:layout_below="@id/firstNameField"
+        android:hint="@string/email_edit_text_label"
+        android:inputType="textEmailAddress"
+        android:maxLength="30" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        style="@style/editTextBasicStyles"
+        android:layout_below="@id/emailField"
+        android:hint="@string/password_field_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordField"
+        android:layout_toLeftOf="@+id/buttonSeperator"
+        android:text="@string/save_button_label" />
+
+    <View
+        android:id="@+id/buttonSeperator"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/passwordField"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/discardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordField"
+        android:layout_toRightOf="@id/buttonSeperator"
+        android:text="@string/discard_button_label" />
+
+</RelativeLayout>

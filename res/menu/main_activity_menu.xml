@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_manage_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:title="@string/menu_manage_cards"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:title="@string/menu_edit_profile"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:title="@string/menu_logout_label"
+        android:visible="true">
+    </item>
+
+</menu>

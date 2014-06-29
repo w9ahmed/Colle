@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colle</string>
+    <string name="title_activity_main">Colle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_display_data">Display Data</string>
+    <string name="sign_in_button_label">SIGN IN</string>
+    <string name="password_field_hint">Password</string>
+    <string name="username_field_hint">Username</string>
+    <string name="signup_label">Don\'t have an account yet? Sign up!</string>
+    <string name="first_name_edit_text_label">First name</string>
+    <string name="last_name_edit_text_label">Last name</string>
+    <string name="email_edit_text_label">Email</string>
+    <string name="sign_up_button_label">SIGN UP</string>
+    <string name="cancel_button_label">CANCEL</string>
+    <string name="photo_viewer_content">Photo Viewer</string>
+    <string name="menu_logout_label">Logout</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="welcome_main_screen">Welcome,</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="discard_button_label">DISCARD</string>
+    <string name="save_button_label">SAVE</string>
+    <string name="menu_manage_cards">Manage Cards</string>
+    <string name="title_activity_manage_cards">Manage Cards</string>
+    <string name="manage_cards_empty_list_label">Sorry, no cards added yet!</string>
+
+</resources>

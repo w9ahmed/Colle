@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_orange" >
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/editTextContainer"
+        style="@style/EditTextContainer"
+        android:layout_below="@id/appName" >
+
+        <EditText
+            android:id="@+id/usernameField"
+            style="@style/editTextBasicStyles"
+            android:hint="@string/username_field_hint" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            style="@style/editTextBasicStyles"
+            android:layout_marginBottom="@dimen/relative_layout_hori_vert_paddings"
+            android:hint="@string/password_field_hint"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signInButton"
+        style="@style/ButtonBasicStyles"
+        android:layout_below="@id/editTextContainer"
+        android:layout_marginLeft="@dimen/relative_layout_hori_vert_paddings"
+        android:layout_marginRight="@dimen/relative_layout_hori_vert_paddings"
+        android:text="@string/sign_in_button_label" />
+
+    <TextView
+        android:id="@+id/signupLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/signInButton"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/relative_layout_hori_vert_paddings"
+        android:text="@string/signup_label"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
