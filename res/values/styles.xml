@@ -21,7 +21,8 @@
         <item name="android:singleLine">true</item>
         <item name="android:maxLength">16</item>
         <item name="android:imeOptions">actionNext</item>
-        <item name="android:textColor">@color/slight_blue</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/light_gray_text_hint</item>
     </style>
 
     <style name="ButtonBasicStyles">
@@ -38,11 +39,18 @@
         <item name="android:layout_marginLeft">@dimen/relative_layout_hori_vert_paddings</item>
         <item name="android:layout_marginRight">@dimen/relative_layout_hori_vert_paddings</item>
         <item name="android:layout_marginTop">@dimen/relative_layout_hori_vert_paddings</item>
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@drawable/containers_transparent_fill</item>
         <item name="android:orientation">vertical</item>
         <item name="android:paddingLeft">@dimen/relative_layout_hori_vert_paddings</item>
         <item name="android:paddingRight">@dimen/relative_layout_hori_vert_paddings</item>
         <item name="android:paddingTop">@dimen/relative_layout_hori_vert_paddings</item>
+    </style>
+    
+    <style name="backgroundImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/background</item>
+        <item name="android:scaleType">fitXY</item>
     </style>
     
 </resources>

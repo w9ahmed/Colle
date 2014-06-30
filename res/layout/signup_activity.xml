@@ -4,6 +4,10 @@
     android:layout_height="match_parent"
     android:background="@color/dark_orange" >
 
+    <ImageView
+        android:id="@+id/backgroundHolder"
+        style="@style/backgroundImageViewStyle" />
+
     <TextView
         android:id="@+id/appName"
         android:layout_width="match_parent"
@@ -47,10 +51,10 @@
         <EditText
             android:id="@+id/passwordField"
             style="@style/editTextBasicStyles"
+            android:layout_marginBottom="@dimen/relative_layout_hori_vert_paddings"
             android:hint="@string/password_field_hint"
             android:imeOptions="actionDone"
-            android:inputType="textPassword"
-            android:layout_marginBottom="@dimen/relative_layout_hori_vert_paddings" />
+            android:inputType="textPassword" />
     </LinearLayout>
 
     <Button

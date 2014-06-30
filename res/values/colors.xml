@@ -4,5 +4,6 @@
     <color name="dark_orange">#FC7100</color>
     <color name="slight_blue">#008BFC</color>
     <color name="ran_blue">#005BFC</color>
+    <color name="light_gray_text_hint">#e8e7e7</color>
     
 </resources>
